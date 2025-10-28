@@ -35,7 +35,7 @@ Segundo curso de certificación QWorld: Quantum Hackathon LATAM 2025 y Alexandri
     [Ver en YouTube](https://www.youtube.com/watch?v=TssRpQcRgU0)
 
 ## Material Complementario
-Todo lo anterior esta soportado en el siguiente link de Qworld [QBook101 Contents](https://qworld.net/qbook101/)
+Todo lo anterior esta soportado en el siguiente link de Qworld donde se encuentran los notebooks [QBook101 Contents](https://qworld.net/qbook101/)
 ### 🥉 **Bronze Workshop Material**
 
 -  **Notebooks:** [https://gitlab.com/qworld/bronze-qiskit](https://gitlab.com/qworld/bronze-qiskit)  
@@ -49,6 +49,7 @@ Todo lo anterior esta soportado en el siguiente link de Qworld [QBook101 Content
 -  **Content:** [content.ipynb](https://gitlab.com/qworld/nickel/-/blob/master/content.ipynb?ref_type=heads)  
 -  **Installation Guide:** [Silver installation guide](https://gitlab.com/qworld/silver/-/blob/master/installation.pdf)  
 -  **Video with setup demo:** [YouTube](https://youtu.be/AeecdMkn0mI)
+
 
 
 
