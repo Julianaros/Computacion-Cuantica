@@ -1,6 +1,6 @@
 # Cursos y Talleres de Computación Cuántica 
 
-Este repositorio recopila el material de estudio, talleres y cursos que he realizado durante el año 2025 en el área de **computación cuántica**, incluyendo contenidos teóricos, notebooks, videos y recursos complementarios.Cada carpeta contiene un curso o workshop independiente con su propio `README.md` explicativo y enlaces al material de referencia.
+Este repositorio recopila el material de estudio, talleres y cursos que he realizado durante el año 2025 en el área de **computación cuántica**, incluyendo contenidos teóricos, notebooks, videos y recursos complementarios.Cada carpeta contiene un curso o workshop independiente con su propio `README.md` explicativo y enlaces al material de referencia.\\
 Post Data: Espero que con el tiempo actualice el repositorio con los cursos que vaya realizando en el futuro.
 
 ##  Contenido del repositorio
