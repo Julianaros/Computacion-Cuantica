@@ -69,10 +69,3 @@ Finalmente, se explica cómo construir modelos híbridos cuántico-clásicos de 
 - [🎥 Sesión 2](https://www.youtube.com/watch?v=jesSLK9HX6E&list=PLjZhz-aJHvA1jTIRaBl9YdN75lSoLf7Cu&index=2)
 - Para mayor información sobre este workshop visitar [Quantum Machine Learning Workshop](https://www.qaif.org/events/workshops/qml-workshop-11-12-10-2025)
 
-
-### ⚙️ Requisitos
-
-1. Configura un entorno virtual con **venv** o **Anaconda** para Python 3.11 y actívalo.  
-2. Instala todo el software con el archivo **requirements.txt** (disponible aquí):  
-   ```bash
-   pip install -r <ruta_donde_lo_guardaste>/requirements.txt
