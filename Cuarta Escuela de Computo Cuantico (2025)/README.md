@@ -15,7 +15,8 @@ En este apartado se recopila el material con el que se trabajó en la cuarta esc
   - Algoritmos de Deutsch-Jozsa y de Grover.  
 - **Tema 5:** Quantum Machine Learning  
   - SVM cuántico, clasificador variacional, algoritmos de aprendizaje cuántico.  
-- [Para mayor información visitar:](https://computo-cuantico.unam.mx/)
+- [Click aquí para mayor información](https://computo-cuantico.unam.mx/)
+
 
 
 
