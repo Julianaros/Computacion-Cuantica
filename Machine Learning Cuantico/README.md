@@ -1,85 +1,78 @@
-## An introduction to QML in PennyLane and PyTorch (October 2025)
-- **Author:** [Jacob Cybulski](https://jacobcybulski.com/) ([LinkedIn](https://www.linkedin.com/in/jacobcybulski/)), *Enquanted*
-- **Collaboration with:**
-      [Sebastian Zając](https://sebastianzajac.pl/) ([LinkedIn](https://www.linkedin.com/in/sebastianzajac/)),
-      Tomasz Rybotycki ([LinkedIn](https://www.linkedin.com/in/tomasz-rybotycki-01192582/)) and
-      Paweł Gora ([LinkedIn](https://www.linkedin.com/in/pawelgora/))
-- **Associated with:** [QPoland](https://qworld.net/qpoland/) and [Quantum AI Foundation](https://www.qaif.org/)
-- **Aims:** To explore the creation and use of quantum machine learning models in PennyLane (PL) and PyTorch.
-- **Description:** This Quantum Machine Learning (QML) workshop provides an introduction to Quantum Machine Learning using PennyLane and PyTorch, with hands-on exercises and take-home challenges. The workshop includes four practical sessions that cover the QML concepts, models, and techniques. The sessions explore development of quantum estimators and classifiers, their training with various optimisers, loss and cost functions, as well as model testing and scoring using variety of metrics. It finally, explains how to create hybrid quantum-classical QML models.
-- **Preparation:** Before attempting the workshop, we recommend to do some preparation first:
-  - Download all resources (notes, code and data)
-  - Install the recommended Python virtual environment (venv + requirements), see "install" folder
-  - Undertake some preliminary exercises and get familiar with:
-    - PyTorch, tensors, gradients and neural networks:<br>
-      AssemblyAI, “PyTorch Crash Course - Getting Started with Deep Learning”, Jul 2022.<br>
-      [https://www.youtube.com/watch?v=OIenNRt2bjg](https://www.youtube.com/watch?v=OIenNRt2bjg) (50 mins)
-    - PennyLane, functions, circuits, qnodes and measurements:<br>
-      Diego Emilio Serrano, “Basic Introduction to PennyLane”, Feb 2023.<br>
-      [https://www.youtube.com/watch?v=MCDHAn-GvA8](https://www.youtube.com/watch?v=MCDHAn-GvA8) (40 mins)
-    - PennyLane circuit creation and execution for busy people:<br>
-      Isaac De Vlugt, “My first quantum circuit in PennyLane”, Sept 2023<br>
-      [https://www.youtube.com/watch?v=uCm027_jvZ0](https://www.youtube.com/watch?v=uCm027_jvZ0) (5 mins)
-    - Study two workshop notebooks in the "Explore" section (see table below) (1 hour)
-    - You are now ready!
-- **Structure:** Two preliminary self-study topics and four workshop sessions over two days, i.e.
-  - _**Explore 1:**_ Self study (preliminary)
-  - _**Explore 2:**_ Self study (preliminary)
-  - _**Session 1:**_ QML foundation (basic)
-  - _**Session 2:**_ Quantum estimators (intermediate)
-  - _**Session 3:**_ Quantum classifiers (intermediate)
-  - _**Session 4:**_ Hybrid models and QAEs (advanced)
-- **Release Date:**
-  - _**October, 10 2025:**_ The final versions will be made available 1 day before the workshop
-- **Last Update:**
-  - _**September 21, 2025:**_ Compatibility updates with recent versions of PennyLane and Torch.
+## Una introducción al Aprendizaje Automático Cuántico (QML) en PennyLane y PyTorch (Octubre 2025)
 
-### Important notebooks
+Este taller de *Quantum Machine Learning* (QML) ofrece una introducción al Aprendizaje Automático Cuántico usando PennyLane y PyTorch, con ejercicios prácticos y desafíos para realizar en casa.  
+Incluye cuatro sesiones prácticas que cubren los conceptos, modelos y técnicas del QML.  
+Las sesiones abordan el desarrollo de estimadores y clasificadores cuánticos, su entrenamiento con distintos optimizadores y funciones de pérdida, así como la evaluación de modelos mediante diversas métricas.  
+Finalmente, se explica cómo construir modelos híbridos cuántico-clásicos de QML.
 
-You can play with these notebooks, enjoy!<br>
-Note however that they may be updated at any time!
+- **Autores:** [Jacob Cybulski](https://jacobcybulski.com/) ([LinkedIn](https://www.linkedin.com/in/jacobcybulski/)), *Enquanted*  
+- **En colaboración con:**  
+      [Sebastian Zając](https://sebastianzajac.pl/) ([LinkedIn](https://www.linkedin.com/in/sebastianzajac/)),  
+      Tomasz Rybotycki ([LinkedIn](https://www.linkedin.com/in/tomasz-rybotycki-01192582/)) y  
+      Paweł Gora ([LinkedIn](https://www.linkedin.com/in/pawelgora/))  
+- **Asociado con:** [QPoland](https://qworld.net/qpoland/) y [Quantum AI Foundation](https://www.qaif.org/)
 
-| Session | File | Description |
+
+- **Preparación:**  
+  Antes de comenzar el taller, se recomienda realizar los siguientes pasos:
+  - Descargar todos los recursos (notas, código y datos).  
+  - Instalar el entorno virtual de Python recomendado (venv + requirements), ver carpeta `"install"`.  
+  - Realizar ejercicios preliminares y familiarizarse con:
+    - **PyTorch:** tensores, gradientes y redes neuronales.  
+      AssemblyAI, *“PyTorch Crash Course - Getting Started with Deep Learning”*, jul. 2022.  
+      [https://www.youtube.com/watch?v=OIenNRt2bjg](https://www.youtube.com/watch?v=OIenNRt2bjg) 
+    - **PennyLane:** funciones, circuitos, qnodes y mediciones.  
+      Diego Emilio Serrano, *“Basic Introduction to PennyLane”*, feb. 2023.  
+      [https://www.youtube.com/watch?v=MCDHAn-GvA8](https://www.youtube.com/watch?v=MCDHAn-GvA8) 
+    - **Creación y ejecución de circuitos PennyLane para principiantes:**  
+      Isaac De Vlugt, *“My first quantum circuit in PennyLane”*, sept. 2023.  
+      [https://www.youtube.com/watch?v=uCm027_jvZ0](https://www.youtube.com/watch?v=uCm027_jvZ0)  
+    - Estudiar los dos notebooks de la sección *Explore*.  
+    - ¡Listo para empezar!
+
+- **Estructura:**  
+  Dos temas preliminares de autoestudio y cuatro sesiones de taller distribuidas en dos días:  
+  - _**Explore 1:**_ Autoestudio (preliminar)  
+  - _**Explore 2:**_ Autoestudio (preliminar)  
+  - _**Sesión 1:**_ Fundamentos de QML (básico)  
+  - _**Sesión 2:**_ Estimadores cuánticos (intermedio)  
+  - _**Sesión 3:**_ Clasificadores cuánticos (intermedio)  
+  - _**Sesión 4:**_ Modelos híbridos y autoencoders cuánticos (avanzado)
+
+- **Fecha de lanzamiento:**  
+  - _**10 de octubre de 2025:**_ Las versiones finales estarán disponibles un día antes del taller.
+
+- **Última actualización:**  
+  - _**21 de septiembre de 2025:**_ Actualizaciones de compatibilidad con las versiones recientes de PennyLane y Torch.
+
+### Notebooks importantes
+
+| Sesión | Archivo | Descripción |
 | :- | :- | :- |
-| *Explore&nbsp;1* | s00_explore_tiny_model_vX_x.ipynb | **Basic:** Explains QML principles using PL |
-| *Explore&nbsp;2* | s00_explore_meas_tests_vX_x.ipynb | **Medium:** Explains data encoding and measurements in PL |
-| *Explore&nbsp;3* | s00_explore_hybrid_models_vX_x.ipynb | **Advanced:** Explains how to build hybrid models in PL and Torch |
+| *Explore&nbsp;1* | s00_explore_tiny_model_vX_x.ipynb | **Básico:** Explica los principios de QML usando PennyLane |
+| *Explore&nbsp;2* | s00_explore_meas_tests_vX_x.ipynb | **Medio:** Explica la codificación de datos y las mediciones en PL |
+| *Explore&nbsp;3* | s00_explore_hybrid_models_vX_x.ipynb | **Avanzado:** Explica cómo construir modelos híbridos en PL y Torch |
 |  |  |  |
-| *Session&nbsp;1* | s01_simple_model_vX_x.ipynb | Creates and tests a very simple quantum model |
-| *Session&nbsp;2* | s02_medium_qestimator_vX_x.ipynb | Creates and tests a more complex quantum estimator |
-| *Session&nbsp;3* | s03_medium_qclassifier_vX_x.ipynb | (creates and tests a quantum classifier |
-|  | s03_medium_cclassifier_vX_x.ipynb | Creates and tests a classical classifier |
-| *Session&nbsp;4* | s04_advanced_hybrid_vX_x.ipynb | Creates and tests a quantum-classical hybrid model |
-|  | s04_challenge_qae_vX_x.ipynb | Hard challenge to create a PyTorch quantum autoencoder |
+| *Sesión&nbsp;1* | s01_simple_model_vX_x.ipynb | Crea y prueba un modelo cuántico muy simple |
+| *Sesión&nbsp;2* | s02_medium_qestimator_vX_x.ipynb | Crea y prueba un estimador cuántico más complejo |
+| *Sesión&nbsp;3* | s03_medium_qclassifier_vX_x.ipynb | Crea y prueba un clasificador cuántico |
+|  | s03_medium_cclassifier_vX_x.ipynb | Crea y prueba un clasificador clásico |
+| *Sesión&nbsp;4* | s04_advanced_hybrid_vX_x.ipynb | Crea y prueba un modelo híbrido cuántico-clásico |
+|  | s04_challenge_qae_vX_x.ipynb | Desafío avanzado: crear un autoencoder cuántico en PyTorch |
 |  |  |  |
-| *Other* | utilities.py | Utilities useful for plotting functions to make your life easier |
-| | windows.py | Utilities needed to manage sliding windows (to be used in s04_challenge_qae_...) |
-| | requirements.txt | A list of software needed for this workshop (for auto-install with *pip*) |
+| *Otros* | utilities.py | Funciones auxiliares para graficar |
+| | windows.py | Utilidades para manejar ventanas deslizantes (usadas en *s04_challenge_qae_...*) |
+| | requirements.txt | Lista de paquetes necesarios (para instalación automática con *pip*) |
 
-### Folders
-- _**notebooks:**_ all workshop notebooks can be found here
-- _**images:**_ some images appearing in notebooks (via a relative link)
-- _**legacy:**_ previous versions of files (in case you really really wanted them)
-- _**slides:**_ presentation slides in PDF (as they become available)
-- _**test:**_ test files are found here
-  
-### Requirements
-- Set up a virtual environment with **venv** or **anaconda** for Python 3.11 and activate it
-- Then install all software using **requirements.txt** file (available here):
-    - pip install -r \<place-you-saved-it\>/requirements.txt
-- Or install by hand by following these instructions:
-    - pip install pennylane==0.42.3 pennylane-lightning==0.42.0 (PennyLane)
-    - pip install scikit-learn==1.7.2 pandas==2.3.2 (ML)
-    - pip install matplotlib==3.10.6 plotly==6.3.0 seaborn==0.13.2 pillow==11.3.0 (plots and images)
-    - pip install jupyter==1.1.1 jupyterlab==4.4.7 (running jupyter notebooks)
-    - pip install kagglehub==0.3.13 ucimlrepo==0.0.7 (data access)
-    - pip install pdflatex (optionally to plot and export some plots and tables to latex)
-    - install [PyTorch](https://pytorch.org/get-started/locally/), as per web site instructions, also add:<br>
-      pip install torchvision torchaudio torchsummary torcheval torchmetrics
+## Sesiones grabadas
+- [🎥 Sesión 1](https://www.youtube.com/watch?v=XyqvX1-x8P0&list=PLjZhz-aJHvA1jTIRaBl9YdN75lSoLf7Cu&index=1)
+- [🎥 Sesión 2](https://www.youtube.com/watch?v=jesSLK9HX6E&list=PLjZhz-aJHvA1jTIRaBl9YdN75lSoLf7Cu&index=2)
+- Para mayor información sobre este workshop visitar [Quantum Machine Learning Workshop](https://www.qaif.org/events/workshops/qml-workshop-11-12-10-2025)
 
-The **requirements.txt** file was tested for installation on 
-Ubuntu 22.04-24.04, Windows 11 and MacOS Sequoia 15.3.1 (with M3 procesor).
 
-### License
-This project is licensed under the [GNU General Public License v3](./LICENSE).
-The GPL v3 license requires attribution for modifications and derivatives, ensuring that users know which versions are changed and to protect the reputations of original authors.
+### ⚙️ Requisitos
+
+1. Configura un entorno virtual con **venv** o **Anaconda** para Python 3.11 y actívalo.  
+2. Instala todo el software con el archivo **requirements.txt** (disponible aquí):  
+   ```bash
+   pip install -r <ruta_donde_lo_guardaste>/requirements.txt
